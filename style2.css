@@ -1,0 +1,147 @@
+
+h1{
+  font-style: initial;
+  font-size: xx-large;
+  color: whitesmoke;
+  text-align: center;
+  font-weight: 500px;
+}
+
+h2 {
+  font-style: italic;
+  text-align: center;
+  min-padding: 19px;
+  min-margin: 10px;
+  padding 19px 44px 50px 10px;
+}
+h4{
+  color: white;
+  padding-left: 798px;
+}
+
+
+body {
+  background-color: white;
+  font-family: Helvetica;
+  background-image: url(https://img.freepik.com/free-vector/mathematical-geometric-background-vector-gradient-blue-education-remix_53876-114100.jpg?w=740&t=st=1681756842~exp=1681757442~hmac=1fa665f69b58747ef72f78c23b719383dad0e8d5260db6f48e01f2c78b22dcd9);
+}
+.gray-box {
+
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10% 10% 10% 10%;
+  justify: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.black-box {
+  background-color: rgb(22, 19, 19);
+  border-radius: 10px;
+  height: auto;
+  
+  
+}
+
+h2 {
+  color: rgb(228, 225, 225);
+  text-align: center;
+  /*padding: 0px 10px 50px 10px;*/
+  font-size: 14pt;
+  font-family: , Helvetica
+}
+.black-border {
+  border-color: black;
+  border-width: 2vw;
+  border-style: solid;
+  border-radius: 10px;
+  
+}
+img {
+  justify: center;
+  max-width: 92%;
+  width: 98%;
+  height: auto;
+  margin-top: 10%;
+}
+p{
+  color: azure;
+}
+p#main
+{
+  margin-top: 44px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  
+  color: azure;
+}
+#tribute-info {
+  margin-top: 5%;
+  line-height: 1.3;
+}
+p#timelinetitle {
+  margin-bottom: 40px;
+  margin-top: 45px;
+  background-color: rgb(3, 8, 8);
+}
+li {
+  margin-bottom: 10px;
+  color: azure;
+}
+ul#timeline {
+margin-bottom: 50px;
+
+}
+blockquote#quote {
+  margin-bottom: 50px;
+}
+p#footer {
+  font-size: 8pt;
+  margin-top: 51px;
+ 
+}
+footer{
+  color: antiquewhite;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #c0c0c0;
+
+}
+  h1{
+    padding: 8px;
+    
+  }
+  .gray-box {
+    margin: 0;
+    padding: 0px;
+  }
+ 
+  img {
+  justify: center;
+  max-width: 95%;
+  height: auto;
+  margin-top: 8%;
+  }
+  .text-margins {
+    margin-left: 6%;
+    margin-right: 6%;
+    color: azure;
+    
+  }
+  ul {
+    margin-left: -10px;
+    color: azure;
+  }
+  blockquote#quote {
+    margin: 5%;
+    font-size: 98%;
+    color: azure;
+   
+  }
+}
